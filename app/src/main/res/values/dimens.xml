@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="font_normal" type="dimen">20sp</item>
+    <item name="font_large" type="dimen">22sp</item>
+    <item name="font_larger" type="dimen">24sp</item>
+    <item name="font_small" type="dimen">18sp</item>
+    <item name="font_smaller" type="dimen">16sp</item>
+    <item name="screen_padding" type="dimen">10dp</item>
+    <item name="padding_small" type="dimen">10dp</item>
+    <item name="padding_normal" type="dimen">15dp</item>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Học lập trình Android chương 1 - 3</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_example">Code mẫu</string>
+    <string name="nav_setting">Cài đặt</string>
+    <string name="txtProcess">Tiến trình</string>
+</resources>

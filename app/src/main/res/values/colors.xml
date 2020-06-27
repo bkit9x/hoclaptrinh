@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00157D</color>
+    <color name="colorPrimaryDark">#050221</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="navBackground">#141130</color>
+    <color name="navForeground">#717289</color>
+    <color name="navActive">#FFFFFF</color>
+    <color name="appBackground">#221D46</color>
+    <color name="btnBackground">#13C5B5</color>
+    <color name="btnBackground1">#25D489</color>
+    <color name="itemBackground">#00157D</color>
+    <color name="border">#241F62</color>
+    <color name="listitem">#cc050221</color>
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+<!--    <color name=""></color>-->
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="3"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/nav_home"
+        style="@style/menu_item"
+        android:textColor="@color/navActive"
+        android:background="@color/navBackground"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/nav_home"></Button>
+    <Button
+        android:id="@+id/nav_example"
+        style="@style/menu_item"
+        android:textColor="@color/navForeground"
+        android:background="@color/navBackground"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/nav_example"></Button>
+    <Button
+        android:id="@+id/nav_setting"
+        style="@style/menu_item"
+        android:textColor="@color/navForeground"
+        android:background="@color/navBackground"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/nav_setting"></Button>
+</LinearLayout>
