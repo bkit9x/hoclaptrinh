@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         lessonArrayList.add(new lesson("Bài 3", "Xây dựng giao diện người dùng"));
         lessonArrayList.add(new lesson("Bài 1", "Tổng quan về lập trình Android"));
         lessonArrayList.add(new lesson("Bài 2", "các activity, fragment và intent"));
-        lessonArrayList.add(new lesson("Bài 3", "Xây dựng giao diện người dùng"));
+        lessonArrayList.add(new lesson("Bài 5", "Xây dựng giao diện người dùng"));
         lessonArrayList.add(new lesson("Bài 3", "Xây dựng giao diện người dùng"));
         lessonArrayList.add(new lesson("Bài 3", "Xây dựng giao diện người dùng"));
         lessonArrayList.add(new lesson("Bài 4", "Xây dựng giao diện người dùng"));
