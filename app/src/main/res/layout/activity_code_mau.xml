@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="20"
+    android:orientation="vertical"
+    android:background="@drawable/bg0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Tiến trình-->
+    <LinearLayout
+        android:padding="@dimen/screen_padding"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3">
+        <TextView
+            android:text="DANH SÁCH CODE MẪU"
+            style="@style/textProcess"
+            android:textAlignment="center">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+            <Button
+                android:text="Chương 1"
+                style="@style/textProcess"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </Button>
+            <Button
+                android:text="Chương 2"
+                style="@style/textProcess"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </Button>
+            <Button
+                android:text="Chương 3"
+                style="@style/textProcess"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+    <!--Tiến trình-->
+    <ListView
+        android:id="@+id/lvLessons"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:padding="@dimen/screen_padding"
+        android:layout_weight="15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </ListView>
+    <include
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        layout="@layout/nav_bottom"></include>
+</LinearLayout>
