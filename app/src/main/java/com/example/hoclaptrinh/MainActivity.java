@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         lessonArrayList.add(new lesson("Bài 3", "Xây dựng giao diện người dùng"));
         lessonArrayList.add(new lesson("Bài 3", "Xây dựng giao diện người dùng"));
         lessonArrayList.add(new lesson("Bài 3", "Xây dựng giao diện người dùng"));
-        lessonArrayList.add(new lesson("Bài 3", "Xây dựng giao diện người dùng"));
+        lessonArrayList.add(new lesson("Bài 4", "Xây dựng giao diện người dùng"));
         adapterLessons aptLessons = new adapterLessons(this, R.layout.lv_lesson, lessonArrayList);
         lv.setAdapter(aptLessons);
     }
